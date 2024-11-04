@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="63.714">
+    <testcase classname="Dominos Test Automation" name="Add and Remove Products" time="63.459">
+        <system-out><![CDATA[Given User Click on Order Online now........................................passed
+And User Enter the Address and Pincode......................................passed
+When User add the VEG PIZZA with following product and the quantity.........passed
+And User Subtotal the Cart value of VEG PIZZA with sum of (Each Product Value *Qty).passed
+And User Select the BEVERAGES as Pepsi475ml and the below quantity..........passed
+And User Subtotal the Cart value of BEVERAGES with sum of (Each Product Value *Qty).passed
+And User Removes the following product from the Cart........................passed
+And Subtotal the cart value with sum of (Each Product Value *Qty)...........passed
+Then User should get the Subtotal value of all Cart product and Click checkout.passed
+And Verify the Subtotal price with Place Order Price Details................passed
+]]></system-out>
+    </testcase>
+</testsuite>
